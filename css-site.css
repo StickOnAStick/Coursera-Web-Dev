@@ -1,0 +1,144 @@
+*{
+    /*Styling settings*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    /*Text Settings*/
+    font-family: 'Outfit', Arial, Helvetica, sans-serif;
+    font-size: medium;
+
+}
+
+body{
+    /*Display settings*/
+    background-color: blanchedalmond;
+}
+
+h1{
+    text-align:center;
+    margin: 10px;
+    padding: 14px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.NavBar a{
+    text-decoration: none;
+    color: black;
+}
+.NavBar a:hover{
+    background-color: rgba(139, 109, 59, 0.746);
+    
+    list-style: none;
+}
+.NavBar a:active{
+    background-color: rgba(255, 255, 255, 0.37);
+    
+    list-style: none;
+}
+.NavBar{
+    
+    border: 5px rgba(200, 152, 74, 0.746) solid;
+    background-color: rgb(207, 182, 114);
+    height: 7%;
+}
+.NavBar p{
+   float: left;
+   padding: 11px;
+}
+.NavBar ul{
+    float: right;
+
+}
+.NavBar li{
+    /*Text Settings*/
+    list-style: none;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.815);
+
+    /*Display Settings*/
+    float: right;
+    padding:10px;
+}
+.Main article{
+    border: 3px solid black;
+    margin: 10px;
+    text-align: left;
+    padding-top: 2rem;
+    min-height: max-content;
+    max-height: fit-content;
+    padding: 30px 15px 15px 15px;
+}
+
+
+
+/*** Large Devices ***/
+@media (min-width: 992px){
+    .col-lg-3{
+        width: 33%;
+        float: left;
+    
+    }
+    
+    #Type{
+        float: right;
+        margin: 10px;
+        text-align: center;
+    
+        background-color: rgba(253, 36, 36, 0.794);
+        height: 1.5rem;
+        width: 3rem;
+
+        font-weight: 550;
+    
+    }
+
+}
+
+@media (min-width:768px) and (max-width: 991px){
+    .col-lg-3{
+        width: 50%;
+        float: left;
+    }
+
+    #Col3{
+        width: 100%;
+        float: left;
+    }
+    
+    #Type{
+        float: right;
+        margin: 10px;
+        text-align: center;
+    
+        background-color: rgba(253, 36, 36, 0.794);
+        height: 1.5rem;
+        width: 3rem;
+        font-weight: 550;
+    }
+    
+}
+
+@media (max-width: 767px){
+    .col-lg-3{
+        width: 100%;
+        float: left;
+    
+    }
+    
+    #Type{
+        float: right;
+        margin: 10px;
+        text-align: center;
+    
+        background-color: rgba(253, 36, 36, 0.794);
+        height: 1.5rem;
+        width: 3rem;
+        font-weight: 550;
+    }
+
+    .NavBar ul{
+        opacity: 0%;
+    }
+}
