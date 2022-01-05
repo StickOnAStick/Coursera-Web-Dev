@@ -1,0 +1,36 @@
+*{
+    /*Styling settings*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+
+    /*Text Settings*/
+    font-family: 'Outfit', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #61122f;
+    color: #fff;
+
+}
+
+/** Header **/
+#header-nav{
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-header{
+    padding: 10px;
+}
+
+#logo-img{
+    background: url("/Coursera HW2/images/restaurant-logo_large.png") no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 0px 10px 10px 0px;
+
+}
