@@ -28,23 +28,44 @@ body{
     margin-top: 0;
     margin-bottom: 0;
     font-size: 2.2em;
-    font-weight: bold;
+    font-weight: bolder;
     color: #fff;
     text-shadow: 2px 1.4px  #ff0000;
     padding-bottom: 20px;
+    padding-left: 15px;
 }
 
-.navbar-brand a:hover, .navbar-brand a:focus{
-    transform: skew(30deg, 20deg);
-    text-decoration: none;
-}
-
-.navbar-header button{
+.navbar-header > button{
     background: #fff;
     box-shadow: 2px 2px #666;
     box-shadow: -1px -0px rgba(0, 0, 0, 0.308);
-    
+    padding: 0px 10px;
+    margin: 0;
+}
+
+#collapsable-nav  a{
+    font-size: 1.25em;
+    color: #eee;
+    text-shadow: 1px 1px rgb(59, 59, 59);
+}
+
+#nav-list{
+    text-align: center;
 }
 
 
+#item-tile{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+}
 
+#items{
+    background-color:brown;
+    margin: 10px 0px;
+}
+
+#items a:hover, #items a:active{
+    text-decoration: none;
+}
