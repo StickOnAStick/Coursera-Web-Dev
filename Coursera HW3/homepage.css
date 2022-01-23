@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Outfit', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+}
+
+#header-nav{
+    background-color: rgb(117, 36, 36);
+    border: 0px;
+}
+
+.navbar-header{
+    padding: 10px;
+}
+
+.navbar-brand{
+    padding: 0;
+}
+
+.navbar-brand h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 1.4px  #ff0000;
+    padding-bottom: 20px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    transform: skew(30deg, 20deg);
+    text-decoration: none;
+}
+
+.navbar-header button{
+    background: #fff;
+    box-shadow: 2px 2px #666;
+    box-shadow: -1px -0px rgba(0, 0, 0, 0.308);
+    
+}
+
+
+
